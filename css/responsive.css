@@ -1,0 +1,470 @@
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (min-width: 320px) and (max-width: 575px) { 
+
+   .title h2{
+      font-size: 22px;
+      font-weight: 400;
+      line-height: 26px;
+      color: #0e0e0e;
+      
+   }
+/* header start */
+   .header-section{
+     width: 100%;
+     padding: 0px;
+   }
+
+
+   /* banner start */
+   .banner-section{
+     padding: 80px 0px;
+     height:auto;
+     background-image: url(../images/banner.jpg);
+     background-position: center center;
+     background-repeat: no-repeat;
+     background-size: cover;
+  }
+.banner-section .inner-banner h5{
+   font-size: 16px;
+   font-weight: 500;
+   line-height: 16px;
+   text-transform:uppercase;
+   color: #fff;
+   
+}
+
+.banner-section .inner-banner h1 span{
+   color: #086ad8;
+}
+.banner-section .inner-banner h1{
+   font-size:24px;
+   font-weight: 700;
+   line-height: 24px;
+   color: #fff;
+}
+
+.banner-section .inner-banner h4{
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 16px;
+   text-transform:capitalize;
+   color: #fff;
+   
+}
+.banner-section .inner-banner .btn-primary {
+  display: none;
+   padding: 0px 20px;
+   font-size: 15px;
+   font-weight: 600;
+   line-height: 56px;
+   text-transform: capitalize;
+   color: #fff;
+   background-color: linear-gradient(195deg, #086ad8 0%, #42b9ff 100%);
+   border: 1px solid #086ad8;
+   margin: 20px 0px;
+}
+
+
+/* who-we start */
+
+.who-we {
+   width: 100%;
+   padding: 40px 0px 10px;
+   text-align: center;
+}
+
+
+.inner-we{
+   text-align: center;
+   justify-content: center;
+}
+.inner-we h3{
+   font-size: 16px;
+   font-weight: 600;
+   line-height: 20px;
+   color: #0E0E0E;
+   margin-top: 50px;
+}
+.inner-we p{
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 18px;
+   color:#0E0E0E;
+  
+}
+
+/* service start */
+.service{
+ display: none;
+
+}
+
+/* .fun-facts start */
+.fun-facts{
+   width: 80%;
+   margin: 0 auto;
+   padding: 0px;
+   background: url(../images/banner3.jpg);
+   background-position: center top;
+   background-repeat: no-repeat;
+   background-position: cover;
+}
+.fun-facts .inner-fun h1{
+   font-size:18px;
+   font-weight: 700;
+   line-height:28px;
+   color: #010717;
+   text-align: center;
+   margin: 0px;
+   padding: 0px;
+}
+.fun-facts .inner-fun p{
+   font-size:16px;
+   font-weight: 400;
+   line-height:26px;
+   color: #fff;
+   text-align: center;
+   margin: 0px;
+   padding: 0px;
+}
+
+/* deliver start */
+.deliver{
+   width: 80%;
+   padding: 20px 0px;
+   margin: 0 auto;
+   justify-content: center;
+}
+
+.inner-deliver h3 {
+   font-size: 18px;
+   font-weight: 600;
+   line-height: 27px;
+   color: #fff;
+}
+
+.inner-deliver .btn-primary {
+   padding: 10px 15px;
+   color: #086ad8;
+   background-color: #fff;
+   border: 1px solid #fff;
+   border-radius: 100%;
+}
+ 
+/* carousel start */
+.carousel{
+   width: 60%;
+   padding:20px 0px 0px;
+   margin: 0 auto;
+   
+}
+
+/* contact start */
+.contact{
+   width: 80%;
+   margin: 0 auto;
+   padding:20px 0px;
+
+}
+
+.inner-contact{
+   width: 100%;
+   padding: 40px 20px 0px;
+   background: url(../images/banner2.jpg);
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-position: cover;
+   border-radius: 5px;  
+}
+
+.inner-contact .title{
+   border: none;
+   margin: 0px;
+}
+
+.inner-contact .title h2{
+   font-size: 22px;
+   font-weight: 600;
+   line-height: 32px;
+   color: #fff;     
+}
+
+
+/* testimonial start */
+
+.testimonial{
+  display: none;
+}
+
+/* footer start */
+
+.footer {
+   text-align: center;
+   width: 100%;
+   padding: 100px 0px;
+   background-color: #010717;
+   margin-top: 0px;
+   z-index: -1;
+   position: absolute;
+}
+}
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+   .title h2{
+      font-size: 22px;
+      font-weight: 400;
+      line-height: 26px;
+      color: #0e0e0e;
+      
+   }
+
+   /* header start */
+   .header-section{
+      width: 100%;
+      padding: 0px;
+    }
+
+/* banner start */
+   .banner-section{
+      display: none;
+     
+   }
+/* who we start */
+
+   .who-we {
+      width: 100%;
+      padding: 40px 0px 10px;
+      text-align: center;
+   }
+  
+
+   .inner-we h3 {
+      text-align: center;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 20px;
+      color: #0E0E0E;
+      margin-top: 50px;
+  }
+
+  .inner-we p{
+   text-align: center;
+   font-size: 16px;
+   font-weight: 500;
+   line-height: 30px;
+   color:#4c4d56;
+   margin: 20px 0px;
+}
+
+   /* service start */
+.service{
+   display: none;
+}
+   
+/* fun facts start */
+   .fun-facts{
+      width: 100%;
+      height: auto;
+      padding: 0px 10px;
+      background: url(../images/banner3.jpg);
+      background-position: center top;
+      background-repeat: no-repeat;
+      
+  }
+
+/* deliver start */
+  .deliver {
+   width: 100%;
+   padding: 10px 0px;
+   text-align: center;
+}
+
+.inner-deliver h3 {
+   font-size: 18px;
+   font-weight: 600;
+   line-height: 27px;
+   color: #fff;
+}
+
+.inner-deliver .btn-primary {
+   text-align: center;
+   padding: 10px 15px;
+   color: #086ad8;
+   background-color: #fff;
+   border: 1px solid #fff;
+   border-radius: 100%;
+}
+
+/* testimonial start */
+.testimonial {
+   width: 100%;
+   padding: 40px 0px;
+   background: url(../images/banner-6.jpg);
+   background-position: center top;
+   background-repeat: no-repeat;
+}
+.testi-img{
+   display: none;
+}
+
+
+.contact{
+   width: 80%;
+   margin: 0 auto;
+   padding:20px 0px;
+
+}
+.inner-contact .title{
+   border: none;
+   margin: 0px;
+}
+
+.inner-contact{
+   width: 100%;
+   padding: 40px 20px 0px;
+   background: url(../images/banner2.jpg);
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-position: cover;
+   border-radius: 5px;  
+}
+.inner-contact .title h2{
+   font-size: 22px;
+   font-weight: 400;
+   line-height: 26px;
+   color:#fff;
+   
+}
+
+/* footer start */
+.footer {
+   text-align: center;
+   width: 100%;
+   padding: 100px 0px;
+   background-color: #010717;
+   margin-top: 0px;
+   z-index: -1;
+   position: absolute;
+}
+
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+
+   .title h2{
+      font-size: 28px;
+      font-weight: 400;
+      line-height: 34px;
+      color: #0e0e0e;
+      
+   }
+/* banner start */
+   .banner-section{
+      padding: 80px 0px;
+      background-image:url("../images/banner.jpg");
+      background-position:center top;
+      background-repeat:no-repeat;
+      background-size:cover;
+      
+  }
+
+  
+  .banner-section .inner-banner h5{
+   font-size: 16px;
+   font-weight: 500;
+   line-height: 26px;
+   text-transform:uppercase;
+   color: #fff;
+   
+}
+.banner-section .inner-banner h1{
+   font-size:48px;
+   font-weight: 700;
+   line-height: 48px;
+   color: #fff;
+}
+
+.banner-section .inner-banner h4{
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 26px;
+   text-transform:capitalize;
+   color: #fff;
+   
+}
+.banner-section .inner-banner .btn-primary{
+   width: 50%;
+
+}
+.inner-image{
+   display: none;
+}
+
+
+/* who we section start */
+.inner-we{
+   text-align: center;
+}
+
+.we-content{
+   justify-content: center;
+}
+
+.inner-we h3{
+   font-size: 22px;
+   font-weight: 400;
+   line-height: 25px;
+   color: #0E0E0E;
+   margin-top: 20px;
+}
+.inner-we p{
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 16px;
+   color:#4c4d56;
+   
+}
+
+/* testimonial start */
+.testi-img {
+   
+      display: none;
+   
+}
+/* footer start */
+
+.footer {
+   text-align: center;
+   width: 100%;
+   padding: 116px 20px;
+   background-color: #010717;
+   margin-top: 0px;
+   z-index: -1;
+   position: absolute;
+}
+
+
+  }
+
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+   .banner-section .inner-banner h1 {
+      font-size: 50px;
+      line-height: 50px;
+     margin: 0px 0px;
+
+  
+  }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399px){  }
+
+
+
+/* // Extra extra  large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+  
+ }
